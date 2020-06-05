@@ -28,4 +28,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/WEB-INF/lib/joda-time-2.4.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse/joda_time/joda-time-2.4/joda-time-2.4.jar</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

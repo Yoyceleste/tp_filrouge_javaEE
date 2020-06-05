@@ -5,12 +5,12 @@
   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
   version="3.0">
 	<servlet>
-		<servlet-name>CreationClient</servlet-name>
-		<servlet-class>com.jm.tp.servlets.CreationClient</servlet-class>
+		<servlet-name>CreationCommande</servlet-name>
+		<servlet-class>com.jm.tp.servlets.CreationCommande</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>CreationClient</servlet-name>
-		<url-pattern>/creationClient</url-pattern>
+		<servlet-name>CreationCommande</servlet-name>
+		<url-pattern>/creationCommande</url-pattern>
 	</servlet-mapping>
 </web-app>
