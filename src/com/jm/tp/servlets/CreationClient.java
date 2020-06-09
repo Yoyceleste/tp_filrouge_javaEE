@@ -25,9 +25,9 @@ public class CreationClient extends HttpServlet {
 
 		if (client.getNomClient().isEmpty() || client.getAdresseClient().isEmpty()
 				|| client.getTelephoneClient().isEmpty()) {
-			client.setMessage("Erreur - Vous n'avez pas rempli tous les champs obligatoire.<br><a href='/tp1/creerClient.jsp'>Clique ici</a> pour accéder au formulaire de création d'un client.");
+			request.setAttribute("message", "Erreur - Vous n'avez pas rempli tous les champs obligatoire.<br><a href='/tp1/creerClient.jsp'>Clique ici</a> pour accéder au formulaire de création d'un client.");
 		} else {
-			client.setMessage("Client créé avec succès !");
+			request.setAttribute("message", "Client créé avec succès !");
 		}
 
 		request.setAttribute("client", client);

@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<p class="info">${client.message}</p>
+	<p class="info">${message}</p>
 	<p>Nom : ${client.nomClient}</p>
 	<p>Prénom : ${client.prenomClient}</p>
 	<p>Adresse : ${client.adresseClient}</p>

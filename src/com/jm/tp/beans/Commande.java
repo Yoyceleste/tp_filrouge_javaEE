@@ -1,65 +1,24 @@
 package com.jm.tp.beans;
 
 public class Commande {
-	private String nomClient;
-	private String prenomClient;
-	private String adresseClient;
-	private String telephoneClient;
-	private String emailClient;
-	private String message;
+	private Client client;
 	private String dateCommande;
-	private String montantCommande;
+	private Double montantCommande;
 	private String modePaimentCommande;
 	private String statutPaiementCommande;
 	private String modeLivraisonCommande;
 	private String statutLivraisonCommande;
-	
-	public String getNomClient() {
-		return nomClient;
-	}
-	public void setNomClient(String nomClient) {
-		this.nomClient = nomClient;
-	}
-	public String getPrenomClient() {
-		return prenomClient;
-	}
-	public void setPrenomClient(String prenomClient) {
-		this.prenomClient = prenomClient;
-	}
-	public String getAdresseClient() {
-		return adresseClient;
-	}
-	public void setAdresseClient(String adresseClient) {
-		this.adresseClient = adresseClient;
-	}
-	public String getTelephoneClient() {
-		return telephoneClient;
-	}
-	public void setTelephoneClient(String telephoneClient) {
-		this.telephoneClient = telephoneClient;
-	}
-	public String getEmailClient() {
-		return emailClient;
-	}
-	public void setEmailClient(String emailClient) {
-		this.emailClient = emailClient;
-	}
-	public String getMessage() {
-		return message;
-	}
-	public void setMessage(String message) {
-		this.message = message;
-	}
+
 	public String getDateCommande() {
 		return dateCommande;
 	}
 	public void setDateCommande(String dateCommande) {
 		this.dateCommande = dateCommande;
 	}
-	public String getMontantCommande() {
+	public Double getMontantCommande() {
 		return montantCommande;
 	}
-	public void setMontantCommande(String montantCommande) {
+	public void setMontantCommande(Double montantCommande) {
 		this.montantCommande = montantCommande;
 	}
 	public String getModePaimentCommande() {
@@ -85,5 +44,11 @@ public class Commande {
 	}
 	public void setStatutLivraisonCommande(String statutLivraisonCommande) {
 		this.statutLivraisonCommande = statutLivraisonCommande;
+	}
+	public Client getClient() {
+		return client;
+	}
+	public void setClient(Client client) {
+		this.client = client;
 	}
 }

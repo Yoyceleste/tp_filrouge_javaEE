@@ -8,13 +8,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<p class="info">${commande.message}</p>
+	<p class="info">${message}</p>
+	<p class="erreur">${messageErreur}</p>
 	<p>Client</p>
-	<p>Nom : ${commande.nomClient}</p>
-	<p>Prénom : ${commande.prenomClient}</p>
-	<p>Adresse : ${commande.adresseClient}</p>
-	<p>Numéro de téléphone : ${commande.telephoneClient}</p>
-	<p>Email : ${commande.emailClient}</p>
+	<p>Nom : ${client.nomClient}</p>
+	<p>Prénom : ${client.prenomClient}</p>
+	<p>Adresse : ${client.adresseClient}</p>
+	<p>Numéro de téléphone : ${client.telephoneClient}</p>
+	<p>Email : ${client.emailClient}</p>
 	<p>Commande</p>
 	<p>Date : ${commande.dateCommande}</p>
 	<p>Montant : ${commande.montantCommande}</p>
