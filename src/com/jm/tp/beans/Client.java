@@ -1,58 +1,50 @@
 package com.jm.tp.beans;
 
 public class Client {
-		private String nomClient;
-		private String prenomClient;
-		private String adresseClient;
-		private String telephoneClient;
-		private String emailClient;
-		private String message;
+    /* Propriétés du bean */
+    private String nom;
+    private String prenom;
+    private String adresse;
+    private String telephone;
+    private String email;
 
-		public String getNomClient() {
-			return nomClient;
-		}
+    public void setNom( String nom ) {
+        this.nom = nom;
+    }
 
-		public void setNomClient(String nomClient) {
-			this.nomClient = nomClient;
-		}
+    public String getNom() {
+        return nom;
+    }
 
-		public String getPrenomClient() {
-			return prenomClient;
-		}
+    public void setPrenom( String prenom ) {
+        this.prenom = prenom;
+    }
 
-		public void setPrenomClient(String prenomClient) {
-			this.prenomClient = prenomClient;
-		}
+    public String getPrenom() {
+        return prenom;
+    }
 
-		public String getAdresseClient() {
-			return adresseClient;
-		}
+    public void setAdresse( String adresse ) {
+        this.adresse = adresse;
+    }
 
-		public void setAdresseClient(String adresseClient) {
-			this.adresseClient = adresseClient;
-		}
+    public String getAdresse() {
+        return adresse;
+    }
 
-		public String getTelephoneClient() {
-			return telephoneClient;
-		}
+    public String getTelephone() {
+        return telephone;
+    }
 
-		public void setTelephoneClient(String telephoneClient) {
-			this.telephoneClient = telephoneClient;
-		}
+    public void setTelephone( String telephone ) {
+        this.telephone = telephone;
+    }
 
-		public String getEmailClient() {
-			return emailClient;
-		}
+    public void setEmail( String email ) {
+        this.email = email;
+    }
 
-		public void setEmailClient(String emailClient) {
-			this.emailClient = emailClient;
-		}
-
-		public String getMessage() {
-			return message;
-		}
-
-		public void setMessage(String message) {
-			this.message = message;
-		}
-	}
+    public String getEmail() {
+        return email;
+    }
+}
